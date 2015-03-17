@@ -1,11 +1,13 @@
 public class HelloWorld {
     public static void main(String[] args) {
-       if ( args.length > 0 ) {
-        System.out.println("hello " + args[0]);
-       } else{
+        String who = "world";
+        
+        if ( args.length > 0 ) {
+            who = args[0];
+        }
 
-        System.out.println("hello world");
-       }
-       }    
+        System.out.println("hello " + who);
+       
+    }    
 }
 
