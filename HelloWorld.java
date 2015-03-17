@@ -6,8 +6,7 @@ public class HelloWorld {
             who = args[0];
         }
 
-        System.out.println("Hello " + who + "!!!");
-       
+        System.out.println(String.format("Hello %s!!!", who)); 
     }    
 }
 
