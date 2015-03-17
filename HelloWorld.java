@@ -1,12 +1,12 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        String who = "world";
+        String who = "World";
         
         if ( args.length > 0 ) {
             who = args[0];
         }
 
-        System.out.println("hello " + who);
+        System.out.println("Hello " + who + "!!!");
        
     }    
 }
